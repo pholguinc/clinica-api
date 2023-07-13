@@ -11,7 +11,7 @@ export class AppController {
   }
 
   @Get()
-  getData() {
+  getData('hello') {
     const data = {
       message: 'Hello world json',
     };

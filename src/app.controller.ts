@@ -10,8 +10,8 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get()
-  getData('hello') {
+  @Get('hello')
+  getData() {
     const data = {
       message: 'Hello world json',
     };
